@@ -1,0 +1,49 @@
+  private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        int Qty1=Integer.parseInt(jqty1.getText());
+        int Qty2=Integer.parseInt(jqty2.getText());
+        int Qty3=Integer.parseInt(jqty3.getText());
+        int Qty4=Integer.parseInt(jqty4.getText());
+        int Qty5=Integer.parseInt(jqty5.getText());
+        int Qty7=Integer.parseInt(jqty7.getText());
+        int Qty8=Integer.parseInt(jqty8.getText());
+        int Qty9=Integer.parseInt(jqty9.getText());
+        int Qty10=Integer.parseInt(jqty10.getText());
+        int Qty11=Integer.parseInt(jqty11.getText());
+        int Qty12=Integer.parseInt(jqty12.getText());
+        int Qty13=Qty1+Qty2+Qty3+Qty4+Qty5+Qty7+Qty8+Qty9+Qty10+Qty11+Qty12;
+        
+        jTextArea1.append("*********************меа паяаццекиа****************************\n\n");
+        jTextArea1.append("                                               жацгта:\n\n");
+               if (Qty1!=0)
+                 jTextArea1.append("соубкайиа\t\t"+Qty1+"\n");
+               if (Qty2!=0)
+                 jTextArea1.append("соутфоуйайиа\t"+Qty2+"\n");
+               if (Qty9!=0)
+                 jTextArea1.append("лома самтоуитс\t\t"+Qty9+"\n");
+               if (Qty10!=0)
+                 jTextArea1.append("дипка самтоуитс\t"+Qty10+"\n");
+               if (Qty3!=0)
+                 jTextArea1.append("леяидес ьыли\t"+Qty3+"\n");
+               if (Qty4!=0)
+                 jTextArea1.append("выяиатийес\t"+Qty4+"\n");
+               if (Qty5!=0)
+                 jTextArea1.append("тфатфийиа\t\t"+Qty5+"\n");
+               jTextArea1.append("\n\n\n\n\n");
+               jTextArea1.append("************************йоьте еды*****************************\n");
+               jTextArea1.append("                                                   пота:\n");
+               if (Qty7!=0)
+                 jTextArea1.append("лпуяес\t\t"+Qty7+"\n");
+               if (Qty8!=0)
+                 jTextArea1.append("яетсимес\t\t"+Qty8+"\n");
+               if (Qty11!=0)
+                 jTextArea1.append("амаьуйтийа\t\t"+Qty11+"\n");
+               if (Qty12!=0)
+                 jTextArea1.append("меяа\t\t"+Qty12+"\n");
+               
+               jTextArea1.append("*******************************************************************\n");
+               jTextArea1.append(" \n\n\n                          еуваяистоуле поку!!!\n\n"
+                       + "       помтиайос покитистийос суккоцос выяуциоу\n\n\n\n"
+               +"                Designed by George Karamousalidis");
+               
+                          
+    } 
